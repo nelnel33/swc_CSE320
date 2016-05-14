@@ -1,0 +1,15 @@
+chat
+client
+server
+/sqlite-autoconf-3120200
+*.db
+test
+../Sqlite
+*.txt
+*.log
+*.DS_STORE
+a.out
+sfwrite
+*.o
+auditor
+parser

@@ -1,0 +1,16 @@
+
+PART 1
+-setenv does not have parameter checking
+-string is too long it will stack smash
+
+PART 2
+-can use backspace(limited). Does not delete if you say string is "helloworld" and you want to delete and make it "hellowold"
+	-backspace also need to reappend two strings together
+	-"helloworld", delete "wo". you would need to reappend "hello" + "rld";
+	-then reset the count(in the read/main method)
+-detects if pressed up,down,left, or right. 
+	-However, no functionality. 
+		-For left we need to make it go backwards by 1 and when it reaches beginning it cannot go backwards anymore
+		-For right, we need to make it go forwards(might need to look at the next letter in the string and rewrite it)
+		-For up, need to implement history array
+		-for down, need to implement history array
